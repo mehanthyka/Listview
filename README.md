@@ -1,11 +1,11 @@
-Ex.No:7 Develop an android application to display the place name with image using list view in android studio.
-AIM:
+# Ex.No:7 Develop an android application to display the place name with image using list view in android studio.
+### AIM:
 To create and develop the application to display the place name with image using list view in android studio
 
-EQUIPMENTS REQUIRED:
+### EQUIPMENTS REQUIRED:
 Android Studio(Latest Version)
 
-ALGORITHM:
+### ALGORITHM:
 Step 1: Open Android Stdio and then click on File -> New -> New project.
 
 Step 2: Then type the Application name as “listview″ and click Next.
@@ -20,13 +20,15 @@ Step 6: Get contacts details and Display details give in MainActivity file.
 
 Step 7: Save and run the application.
 
-PROGRAM:
+### PROGRAM:
 /*
 Program to print the list of item.
 Developed by:Mehanthyka D
 Registeration Number :212221040105
 */
-activity_main.xml
+~~
+### activity_main.xml
+~~~
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -98,7 +100,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-mylist.xml
+~~~
+### mylist.xml
+~~
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -143,7 +147,9 @@ mylist.xml
         android:textStyle="bold" />
 `
 </LinearLayout>
-MyListAdapter.java
+~~
+### MyListAdapter.java
+~~~
 package com.example.listview;
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -172,8 +178,13 @@ public View getView(int position,View view,ViewGroup parent) {
         return rowView;
         };
 }
-OUTPUT
-image image image image
+~~~
+### OUTPUT
+![270877340-e9b0a9e4-220d-4d0d-91e9-b7714f233802](https://github.com/mehanthyka/Listview/assets/127507580/d2e9240a-daed-4c99-930e-e6ec445703e8)
+![270877399-0b5c0ad9-9539-47dc-8ceb-c565fa0f7d73](https://github.com/mehanthyka/Listview/assets/127507580/0833c87b-06e5-47dc-b3ac-cd803790f469)
+![270877482-1980eabc-cb9a-47a7-afb6-b81f1ee693ca](https://github.com/mehanthyka/Listview/assets/127507580/9a872354-90ce-4ee1-aae1-335fc3a9f84d)
+![270877517-a084e4ab-fc9b-40d0-b1c2-9776861a0037](https://github.com/mehanthyka/Listview/assets/127507580/251acfae-9e38-455e-9d6c-1e9390f51a70)
 
-RESULT
+
+### RESULT
 Thus a Simple Android Application to create and develop the application to display the place name with image using list view in android studio is developed and executed successfully.
